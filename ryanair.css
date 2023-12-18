@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+}
+h1 {
+text-align: center;
+color: #0052af;
+}
+::marker {
+  color: red;
+  font-size: 23px;
+}
+
+h4 {
+text-align: left;
+color: black;
+}
+
+.button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin: 10px;
+}
+
+.button1 {
+  background-color: #3d3f3f;
+  color: #2091eb;
+}
+
+.button1:hover {
+  background-color: #2091eb;
+  color: white;
+}
