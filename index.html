@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kazkas</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <h2>SkriskRamiai.lt</h2>
+ 
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
 
+  <div class="topnav">
+   <a class ="active" style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776;</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <input type="text" placeholder="Search..">
+  </div>
+
+
+
+  <h2></h2>
+  <p>Some content..</p>
+</div>
   <button onclick="location.href = 'ryanair.html';" id="myButton" class="button button1">Ryanair</button>
   <button onclick="location.href = 'wizzair.html';" id="myButton" class="button button2">Wizzair</button>
   <button onclick="location.href = 'lufthansa.html';" id="myButton" class="button button3">Lufthansa</button>
