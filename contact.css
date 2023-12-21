@@ -45,6 +45,10 @@ body {
   color: #333;
   background-color: #04AA6D
 }
+.header a.about {
+  background-color: #04AA6D;
+  color: white;
+}
 
 .header a:hover {
   background-color: #ddd;
