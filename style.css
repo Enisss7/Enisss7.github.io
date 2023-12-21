@@ -19,10 +19,6 @@ font-size: 30px;
   body {
     font-family: "Lato", sans-serif;
   }
-header a.home {
-  background-color: #04AA6D;
-  color: white;
-}
 
   .sidenav {
     height: 100%;
@@ -265,7 +261,7 @@ body {
   color: #333;
 }
 
-.header a.active {
+.header a.home {
   background-color: #04AA6D;
   color: white;
 }
