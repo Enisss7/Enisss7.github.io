@@ -83,4 +83,12 @@ color: #0052af;
 h4 {
 text-align: left;
 color: black;
+overflow: hidden;
 }
+
+.text {
+ 
+  overflow: hidden;
+   
+  }
+  
