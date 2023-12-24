@@ -70,6 +70,12 @@ body {
 }
 
 
+ol,
+ul,
+dl {
+  margin: 0 0 1rem;
+}
+
 
 h1 {
 text-align: center;
@@ -87,7 +93,6 @@ overflow: hidden;
 }
 
 .text {
- 
   overflow: hidden;
    
   }
