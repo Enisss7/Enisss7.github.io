@@ -111,6 +111,7 @@ body {
   font-weight: bold;
   color: #04AA6D;
   background-color: #333;
+  float: center;
 }
 
 .header a.logo:hover {
@@ -129,6 +130,16 @@ body {
   background-color: #333;
   color: white;
 }
+
+.header a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.header a.items {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 .header-right {
   float: right;
