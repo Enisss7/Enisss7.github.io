@@ -149,6 +149,16 @@ body {
   color: white;
 }
 
+.header a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.header a.ryanair {
+    background-color: #04AA6D;
+    color: white;
+  }
+
 .header-right {
   float: right;
 }
