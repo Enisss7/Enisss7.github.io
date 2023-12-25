@@ -18,6 +18,33 @@ font-size: 30px;
 
 
 
+  
+
+
+
+
+
+
+
+
+
+  #myimage {
+    height: 200px;
+    width: 200px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
 .button {
   background-color: #000000;
   color: #ffffff;
@@ -51,7 +78,6 @@ font-size: 30px;
 .button1 {
   background-color: whitesmoke;
   color: #333;
-  border: 3px solid #333;
 }
 
 .button1:hover {
