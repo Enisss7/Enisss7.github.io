@@ -188,14 +188,19 @@ body {
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: #04aa6d;
   color: #333;
 }
 
 .header a.home {
-  background-color: #04AA6D;
-  color: white;
+  color: #04aa6d;
 }
+
+.header a.home:hover {
+  background-color: #04aa6d;
+  color: #333;
+}
+
 
 .header-right {
   float: right;
