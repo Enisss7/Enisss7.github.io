@@ -33,6 +33,16 @@ body {
     color: #f1f1f1;
   }
   
+  .sidenav a.ryanair {
+    background-color: #333;
+    color: #04aa6d;
+  }
+
+  .sidenav a.ryanair:hover {
+    color: #f1f1f1;
+  }
+
+
   .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -44,6 +54,7 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+
 }
 
 
@@ -154,10 +165,6 @@ body {
     color: #333;
 }
 
-.header a.ryanair {
-    background-color: #04AA6D;
-    color: white;
-  }
 
 .header-right {
   float: right;
@@ -182,6 +189,47 @@ body {
   }
 
 }
+
+
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: #333;
+  border: 2px solid #333;
+  float: center;
+}
+
+.button1:hover {
+  background-color: #04AA6D;
+  color: #333;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
 
 
 body{
