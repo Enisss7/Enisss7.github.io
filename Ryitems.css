@@ -33,6 +33,11 @@ body {
     color: #f1f1f1;
   }
   
+  .sidenav a.items {
+  background-color: #333;
+  color: #04aa6d;
+  }
+
   .sidenav .closebtn {
     position: absolute;
     top: 0;
