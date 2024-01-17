@@ -1,5 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
+    background-color: #494949;
   }
   .cursor{
     height: 40%;
@@ -34,6 +35,16 @@ body {
     color: #f1f1f1;
   }
   
+  .sidenav a.bag {
+    background-color: #333;
+    color: #04aa6d;
+  }
+
+  .sidenav a.bag:hover {
+    color: #f1f1f1;
+  }
+
+
   .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -54,21 +65,29 @@ dl {
   margin: 0 0 1rem;
 }
 
+p{
+  color: #c5c5c5;
+}
 
 h1 {
-text-align: center;
-color: #0052af;
-}
-::marker {
-  color: red;
-  font-size: 23px;
-}
-
-h4 {
-text-align: left;
-color: black;
-overflow: hidden;
-}
+  text-align: center;
+  color: #002570;
+  }
+  
+  h2 {
+    text-align: left;
+    color: #F1F1F1;
+    }
+  ::marker {
+    color: red;
+    font-size: 23px;
+  }
+  
+  h4 {
+  text-align: left;
+  color: black;
+  overflow: hidden;
+  }
 
 .text {
   overflow: hidden;
