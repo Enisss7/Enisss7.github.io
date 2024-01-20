@@ -81,11 +81,19 @@ dl {
   margin: 0 0 1rem;
 }
 
+p{
+  color: #c5c5c5;
+}
 
 h1 {
 text-align: center;
-color: #CC2788;
+color: #e90088;
 }
+
+h2{
+color: #f1f1f1;
+}
+
 ::marker {
   color: red;
   font-size: 23px;
@@ -93,7 +101,7 @@ color: #CC2788;
 
 h4 {
 text-align: left;
-color: black;
+color: #c5c5c5;
 overflow: hidden;
 }
 
