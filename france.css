@@ -52,12 +52,12 @@ body {
     color: #f1f1f1;
   }
   
-  .sidenav a.airbaltic {
+  .sidenav a.france {
     background-color: #333;
     color: #04aa6d;
   }
 
-  .sidenav a.airbaltic:hover {
+  .sidenav a.france:hover {
     color: #f1f1f1;
   }
 
