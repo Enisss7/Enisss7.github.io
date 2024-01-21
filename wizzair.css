@@ -88,7 +88,9 @@ dl {
 }
 
 h2{
-  text-align: center;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
   color: #c7c7c7;
 }
 
