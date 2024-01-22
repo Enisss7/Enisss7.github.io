@@ -86,15 +86,14 @@ body {
     font-family: "Lato", sans-serif;
   }
   
-p{
-  text-align: left;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
+  p{
+    color: #c5c5c5;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
   h2 {
-  text-align: center;
+    text-align: Center;
   color: #04AA6D;
   font-size: 30px;
     }
