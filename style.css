@@ -16,10 +16,6 @@ body {
 
 
 
-
-
-
-
 body {
   font-family: "Lato", sans-serif;
 }
@@ -91,8 +87,7 @@ h2 {
   text-align: Center;
 color: #04AA6D;
 font-size: 30px;
-  }
-
+}
 
 
   
@@ -103,19 +98,26 @@ font-size: 30px;
 
 
 
+* {box-sizing: border-box;}
 
-
-  #myimage {
-    height: 190px;
-    width: 190px;
+#myimage {
+    height: 200px;
+    width: 200px;
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
+    margin: auto;
 }
 
+@media screen and (max-width: 500px) {
+ 
+  #myimage {
+    max-width: 190px;
+    margin: auto;
+  }
 
-
+}
 
 
 
