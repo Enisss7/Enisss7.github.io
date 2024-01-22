@@ -83,14 +83,17 @@ dl {
 
 p{
   color: #c5c5c5;
+  margin-right: 30px;
 }
 
 p1{
   color: #f1f1f1;
+  margin-right: 30px;
 }
 
 h2{
   color: #f1f1f1;
+  margin-right: 30px;
 }
 
 
@@ -98,6 +101,8 @@ h2{
 h1 {
 text-align: center;
 color: #CDDA32;
+margin-right: 30px;
+margin-left: 30px;
 }
 ::marker {
   color: red;
