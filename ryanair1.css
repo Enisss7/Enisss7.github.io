@@ -80,7 +80,21 @@ body {
 
 }
 
+.rylogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+}
 
+@media screen and (max-width: 750px) {
+  .rylogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+}
 
 
 
