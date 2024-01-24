@@ -69,7 +69,34 @@ body {
 }
 
 
+.luftlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 90px;
+}
 
+@media screen and (max-width: 750px) {
+  .luftlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+}
+
+
+.multicolor-text {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to left,
+          #03A86D,
+          #00776D);
+  background-clip: text;
+  color: transparent;
+}
 
 
 
