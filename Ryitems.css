@@ -88,6 +88,19 @@ body {
 }
 
 
+.multicolor-text {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to left,
+          #03A86D,
+          #00776D);
+background-clip: text;
+  color: transparent;
+}
+
+
+
 
 ol,
 ul,

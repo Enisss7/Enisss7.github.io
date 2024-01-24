@@ -75,6 +75,26 @@ body {
 }
 
 
+.wizzlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 90px;
+}
+
+@media screen and (max-width: 750px) {
+  .wizzlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+}
+
+
+
+
 ol,
 ul,
 dl {
