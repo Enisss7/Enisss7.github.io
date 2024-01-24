@@ -85,7 +85,7 @@ img{
 
 .column {
   float: left;
-  width: 45.33%;
+  width: 33.33%;
   padding: 5px;
 }
 
@@ -96,6 +96,31 @@ img{
   display: table;
 }
 
+@media screen and (max-width: 750px) {
+  .column {
+    float: left;
+    width: 45.33%;
+  }
+}
+
+
+
+.rylogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: auto;
+}
+
+@media screen and (max-width: 750px) {
+  .rylogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+}
 
 
 
