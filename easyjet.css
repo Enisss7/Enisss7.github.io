@@ -81,7 +81,22 @@ padding-top: 9px;
 }
 
 
+.jetlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 90px;
+}
 
+@media screen and (max-width: 750px) {
+  .jetlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+  }
+}
 
 
 
