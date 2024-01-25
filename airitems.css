@@ -69,7 +69,22 @@ body {
 }
 
 
+.airlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 70px;
+}
 
+@media screen and (max-width: 750px) {
+  .airlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+  }
+}
 
 
 
