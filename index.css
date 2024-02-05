@@ -110,10 +110,11 @@ body {
       margin: auto;
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
    
     #myimage {
-      max-width: 190px;
+      max-width: 145px;
+      max-height: 145px;
       margin: auto;
     }
   
@@ -125,8 +126,7 @@ body {
     align-items: center;
     height: 200px;
   }
-  
-  
+
   
   
   
