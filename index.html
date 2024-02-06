@@ -1,119 +1,49 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
-  <meta charset="UTF-8">
-  <link rel="icon" type="image/x-icon" href="minilogo.png">
-  <title>SkirskRamiai</title>
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!--GOOGLE FONTS-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
-  
+<link rel="icon" type="image/x-icon" href="minilogo.png">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="timer.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    
-    
-  <div class="content">
-    <div class="header">
-        <span style="font-size:30px;cursor:pointer" class="cursor" onclick="openNav()">&#9776; </span>
-        <a href="index.html" class="logo"><img src="logo.png" class="logopng"></a>
-    </div>
-  </div>
-
-    
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <ol>
-        <a class="home" href="index.html">Home<br/></a>
-        <a href="contact.html" class="contact">Contact<br/></a>
-        <a href="about.html" class="about">About</a>
-      </ol>
-        </div>
-      </div>
-      </div>
-      
+<div class="container">
+<h2> COMING SOON!</h2>
+<h1 id="demo"></h1>
 </div>
 
 <script>
-function openNav() {
-document.getElementById("mySidenav").style.width = "250px";
-}
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 07, 2024 20:54:25").getTime();
 
-function closeNav() {
-document.getElementById("mySidenav").style.width = "0";
-}
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    window.location.href = "index.html";
+  }
+}, 1000);
 </script>
 
-
-</div>
-<p> </p>
-<p> </p>
-
-<h1> Welcome</h1>
-
-  <p>Are you afraid that you are unprepared for the flight? Not sure what can't be carried with you? Not sure what kind of baggage is allowed? Or are you just afraid to forget something? That's precisely where we step in. Our goal is to make your travel experience as seamless as possible.
-    <br>
-    <br>
-    Browse our platform, choose a continent, and discover many answers to your questions related to flights. Your adventures start with us – let's make your journey stress-free and enjoyable.
-  </p>
-
-  <pre> </pre>
-
-
-<div class="horizontal-flex-container">
-
-  <input type="image" id="myimage1" src="europe.png" onclick="location.href = 'europe.html'" />
-
-
-  <input type="image" id="myimage1" src="usa.png" onclick="location.href = '404.html'" />
-
-
-  <input type="image" id="myimage1" src="africa.png" onclick="location.href = '404.html'" />
-
-</div>
-
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
-<pre> </pre>
-
-
-
-
-
-
-
-  <footer>
-    <div class="footer">
-    <div class="row">
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"><i class="fa fa-youtube"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    </div>
-    
-    <div class="row">
-    <ul>
-    <li><a href="contact.html">Contact us</a></li>
-    <li><a href="#">Privacy Policy</a></li>
-    <li><a href="#">Terms & Conditions</a></li>
-    <li><a href="about.html">About US</a></li>
-    </ul>
-    </div>
-    
-    <div class="row">
-    Copyright © 2024 SkriskRamiai - All rights reserved
-    </div>
-    </div>
-    </footer>
-
-
-</div>
 </body>
-
 </html>
+
