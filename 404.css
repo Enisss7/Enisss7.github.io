@@ -42,7 +42,7 @@ transition: 0.4s;
 }
 
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) and (max-width: 768px) {
  
 .container{
     width: auto;
