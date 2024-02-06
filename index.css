@@ -118,7 +118,7 @@ body {
       margin: auto;
   }
   
-  @media screen and (max-height: 450px) {
+  @media screen and (max-width: 768px) {
   
     .horizontal-flex-container {
       display: flex;
