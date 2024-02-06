@@ -40,3 +40,17 @@ transition: 0.4s;
 .container a:hover{
     background: #e55039;
 }
+
+
+@media screen and (max-height: 450px) {
+ 
+.container{
+    width: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #333;
+}  
+
+}
