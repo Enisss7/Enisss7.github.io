@@ -90,10 +90,6 @@ font-size: 30px;
 }
 
 
-  
-
-
-
 
 
 
@@ -120,7 +116,25 @@ font-size: 30px;
 }
 
 
-
+.container a{
+  text-decoration: none;
+  background: #333;
+  color: #04aa6d;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 17px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  padding: 12px;
+  line-height: 25px;
+}
+ 
+  
+  .container a:hover{
+      background: #04aa6d;
+      color: #333;
+  }
 
 
 
