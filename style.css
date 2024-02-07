@@ -91,9 +91,6 @@ font-size: 30px;
 
 
 
-
-
-
 * {box-sizing: border-box;}
 
 #myimage {
@@ -104,6 +101,7 @@ font-size: 30px;
     padding-bottom: 15px;
     padding-left: 15px;
     margin: auto;
+    border-radius: 40px;
 }
 
 @media screen and (max-width: 500px) {
@@ -111,6 +109,7 @@ font-size: 30px;
   #myimage {
     max-width: 190px;
     margin: auto;
+    border-radius: 8px;
   }
 
 }
@@ -137,112 +136,6 @@ font-size: 30px;
   }
 
 
-
-.button {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 10px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  margin: 10px;
-}
-
-.big-btn {
-  width: 90px;
-  height: 40px;
-}
-
-.button {
-  border: none;
-  color: white;
-  width: 300px;
-  height: 300px;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 8px 15px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button1 {
-  background-color: whitesmoke;
-  color: #333;
-}
-
-.button1:hover {
-  background-color: #04aa6d;
-  color: #333;
-}
-
-.button2 {
-  background-color: whitesmoke;
-  color: #333;
-  border: 3px solid #333;
-}
-
-.button2:hover {
-  background-color: #04aa6d;
-  color: #333;
-}
-
-.button3 {
-  background-color: whitesmoke;
-  color: #333;
-  border: 3px solid #333;
-}
-
-.button3:hover {
-  background-color: #04AA6D;
-  color: #333;
-}
-
-.button4 {
-  background-color: whitesmoke;
-  color: #333;
-  border: 3px solid #333;
-}
-
-.button4:hover {
-  background-color: #04AA6D;
-  color: #333;
-}
-
-.button5 {
-  background-color: whitesmoke;
-  color: #333;
-  border: 3px solid #333;
-}
-
-.button5:hover {
-  background-color: #04AA6D;
-  color: #333;
-}
-
-.button6 {
-  background-color: whitesmoke;
-  color: #333;
-  border: 3px solid #333;
-}
-
-.button6:hover {
-  background-color: #04AA6D;
-  color: #333;
-}
-
-.button7 {
-  background-color: white;
-  text-align: Center;
-  color: #04AA6D;
-  font-size: 30px;
-}
-
-
-
-* {box-sizing: border-box;}
 
 body { 
   margin: 0;
