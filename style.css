@@ -109,7 +109,7 @@ font-size: 30px;
   #myimage {
     max-width: 190px;
     margin: auto;
-    border-radius: 8px;
+    border-radius: 40px;
   }
 
 }
@@ -271,7 +271,6 @@ body{
   margin:0% 3%;
   }
   }
-
 
 
 
