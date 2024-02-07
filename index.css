@@ -85,7 +85,7 @@ body {
   
  p {
     text-align: left, right;
-  color: #292929;
+  color: #202020;
   font-size: 20px;
   padding-left: 8%;
   padding-right: 8%;
@@ -100,14 +100,14 @@ body {
   
     p {
       text-align: left, right;
-    color: #acacac;
+    color: #202020;
     font-size: 20px;
     padding-left: 8%;
     padding-right: 8%;
     }
     h1 {
     text-align: center;
-    color: #04AA6D;
+    color: #3700ff;
     font-family: "Pacifico";
     }
   }
