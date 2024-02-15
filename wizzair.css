@@ -132,27 +132,6 @@ overflow: hidden;
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * {box-sizing: border-box;}
 
 body { 
@@ -245,6 +224,7 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  border-radius: 40px;
 }
 
 .button1 {
@@ -331,3 +311,25 @@ body{
   margin:0% 3%;
   }
   }
+
+
+  .container a{
+    text-decoration: none;
+    background: #333;
+    color: #04aa6d;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 17px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    padding: 12px;
+    line-height: 25px;
+    margin: 10px;
+  }
+   
+    
+  .container a:hover{
+        background: #04aa6d;
+        color: #333;
+}
