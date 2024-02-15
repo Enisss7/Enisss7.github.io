@@ -90,10 +90,12 @@ body {
   padding-left: 8%;
   padding-right: 8%;
   }
+
   h1 {
   text-align: center;
   color: #3700ff;
   font-family: "Pacifico";
+  font-size: 45px;
   }
   
 
