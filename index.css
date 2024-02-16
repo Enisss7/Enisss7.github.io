@@ -89,14 +89,14 @@ body {
   font-size: 20px;
   padding-left: 8%;
   padding-right: 8%;
-  }
+}
 
   h1 {
   text-align: center;
   color: #3700ff;
   font-family: "Calligraphic";
   font-size: 45px;
-  }
+}
   
 
   
@@ -140,7 +140,21 @@ body {
   }
 
 
+  .welcome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+  }
   
+  @media screen and (max-width: 750px) {
+    .welcome {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 60px;
+    }
+  }
   
   
   
