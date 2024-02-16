@@ -78,7 +78,7 @@ body {
   
   }
   
-  
+ 
 
 
   
@@ -90,26 +90,27 @@ body {
     color: #c5c5c5;
     margin-left: 40px;
     margin-right: 40px;
+    font-size: 23px;
   }
 
   h2 {
     text-align: Center;
-  color: #04AA6D;
-  font-size: 30px;
-    }
+    color: #F1F1F1;
+    font-size: 30px;
+  }
   
     * {box-sizing: border-box;}
 
     body { 
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-    }
+  }
     
     .header {
       overflow: hidden;
       background-color: #333;
       padding: 20px 10px;
-    }
+  }
     
     .header a {
       float: left;
@@ -215,6 +216,10 @@ color: #c5c5c5;
       margin:0% 1%;
       }
       
+      .footer a.about{
+        color: #04aa6d;
+      }
+      
       @media (max-width:720px){
       .footer{
       text-align:left;
@@ -228,4 +233,5 @@ color: #c5c5c5;
       .footer .row a i{
       margin:0% 3%;
       }
+      
     }
