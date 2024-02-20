@@ -184,7 +184,7 @@ body {
 @media screen and (max-width: 600px) {
  
   #myimage2 {
-    max-width: 185px;
+    max-width: auto;
     margin: auto;
     border-radius: 100%;
   }
