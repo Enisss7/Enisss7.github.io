@@ -178,7 +178,7 @@ body {
     padding-bottom: 15px;
     padding-left: 15px;
     margin: auto;
-    border-radius: 40px;
+    border-radius: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -186,7 +186,7 @@ body {
   #myimage2 {
     max-width: 185px;
     margin: auto;
-    border-radius: 40px;
+    border-radius: 100%;
   }
 
 }
