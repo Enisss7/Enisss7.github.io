@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #00bdecad;
+    background-color: #494949;
   }
   
   .logopng {
@@ -53,24 +53,15 @@ body {
     color: #f1f1f1;
   }
   
-  .sidenav a.home {
-    background-color: #333;
-    color: #04aa6d;
-  }
-  
-  .sidenav a.home:hover {
-    color: #f1f1f1;
-  }
-  
   .sidenav a.important {
     background-color: #333;
-    color: #ff0000;
+    color: #04aa6d;
   }
   
   .sidenav a.important:hover {
     color: #f1f1f1;
   }
-
+  
   
   .sidenav .closebtn {
     position: absolute;
@@ -92,109 +83,32 @@ body {
     font-family: "Lato", sans-serif;
   }
   
- p {
+p {
     text-align: left, right;
-  color: #202020;
-  font-size: 20px;
-  padding-left: 8%;
-  padding-right: 8%;
-}
+    color: #c5c5c5;
+    margin-right: 30px;
+  }
 
-  h1 {
+
+h1 {
   text-align: center;
-  color: #3700ff;
-  font-family: "Calligraphic";
+  color: #ff0000f1;
+  font-family: "autumn";
   font-size: 45px;
 }
-  
 
-  
-
-  * {box-sizing: border-box;}
-
-  .horizontal-flex-container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    margin: auto;
-}
- 
-  #myimage1 {
-      height: 210px;
-      width: 210px;
-      float: center;
-      padding-top: 15px;
-      padding-right: 15px;
-      padding-bottom: 15px;
-      padding-left: 15px;
-      margin: auto;
-  }
-  
-  @media screen and (max-width: 768px) {
-  
-    .horizontal-flex-container {
-      display: flex;
-      flex-flow: column nowrap;
-      align-items: center;
-      margin: 5px;
-    }
-    
-
-    #myimage1 {
-      max-width: 195px;
-      max-height: 195px;
-      margin: auto;
-    }
-  
-  }
-
-
-  .welcome{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 80px;
-  }
-  
-  @media screen and (max-width: 750px) {
-    .welcome {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      height: 60px;
-    }
-  }
-  
-  
-  
-  
-  #myimage2 {
-    display: block;
-    height: 200px;
-    width: 200px;
-    float: center;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    margin: auto;
-    border-radius: 40px;
+h2{
+color: #f1f1f1;
+margin-right: 30px;
 }
 
-@media screen and (max-width: 600px) {
- 
-  #myimage2 {
-    max-width: 185px;
-    margin: auto;
-    border-radius: 40px;
-  }
-
+.text {
+overflow: hidden;
+     
 }
 
-  
-  
-  
-  * {box-sizing: border-box;}
+
+* {box-sizing: border-box;}
   
   body { 
     margin: 0;
@@ -330,25 +244,5 @@ body {
     margin:0% 3%;
     }
     }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  
-  
-  
   
   
