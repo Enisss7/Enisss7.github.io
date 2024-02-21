@@ -97,10 +97,53 @@ h1 {
   font-size: 45px;
 }
 
-h2{
+p1 {
+  text-align: center;
+  color: #fffffff1;
+  font-size: 17px;
+}
+
+summary{
 color: #f1f1f1;
 margin-right: 30px;
+font-size: 20px; 
+padding: 4px;
+width: 400px;
+background-color: #333;
+border: none;
+box-shadow: 1px 1px 2px #818181;
+cursor: pointer;
 }
+
+summary:hover{
+  color: #04aa6d;
+  margin-right: 30px;
+  font-size: 20px; 
+}
+
+@media screen and (max-width: 500px) {
+  summary{
+    color: #f1f1f1;
+    margin-right: 30px;
+    font-size: 20px; 
+    padding: 4px;
+    width: 250px;
+    background-color: #333;
+    border: none;
+    box-shadow: 1px 1px 2px #818181;
+    cursor: pointer;
+    }
+    
+    summary:hover{
+      color: #04aa6d;
+      margin-right: 30px;
+      font-size: 20px; 
+    }
+  }
+
+
+
+
 
 .text {
 overflow: hidden;
