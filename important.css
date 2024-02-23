@@ -288,4 +288,28 @@ overflow: hidden;
     }
     }
   
-  
+    .container {
+      background: 
+      linear-gradient(#333 0 0) padding-box, /*this is your grey background*/
+      linear-gradient(to right, #04aa6d, #00776d) border-box;
+      color: #c5c5c5;
+      padding: 10px;
+      border: 5px solid transparent;
+      border-radius: 25px;
+      display: 0px 0px;
+      margin: 10px 5px;
+    }
+    
+    @media screen and (max-width: 500px) {
+      .container {
+        background: 
+        linear-gradient(#333 0 0) padding-box, /*this is your grey background*/
+        linear-gradient(to right, #04aa6d, #00776d) border-box;
+        color: #c5c5c5;
+        padding: 10px;
+        border: 5px solid transparent;
+        border-radius: 25px;
+        display: block;
+        margin: 10px 5px;
+      }
+    }
