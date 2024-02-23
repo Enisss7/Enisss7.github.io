@@ -55,7 +55,7 @@ transition: 0.4s;
 @media screen and (max-height: 450px) and (max-width: 768px) {
  
 .container{
-    width: 100%;
+    width: auto;
     height: auto;
     position: absolute;
     top: 50%;
@@ -65,14 +65,14 @@ transition: 0.4s;
 }  
 
 .container h1{
-    font-size: 160px;
+    font-size: 360px;
     margin: 0;
     font-weight: 900;
     letter-spacing: 20px;
     background: url(miskas.jpg) center no-repeat;
     -webkit-text-fill-color: transparent 20%;
     background-clip: text;
-    width: 100%;
+    width: auto;
     height: auto;
     }
     
@@ -86,7 +86,7 @@ transition: 0.4s;
     font-size: 14px;
     text-transform: uppercase;
     transition: 0.4s;
-    width: 100%;
+    width: auto;
     height: auto;
     }
     
