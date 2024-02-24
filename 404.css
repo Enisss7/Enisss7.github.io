@@ -124,3 +124,38 @@ nav .nav_logo a {
 .footer button:hover{
     background-color: var(--primary-color-dark);
 }
+
+
+@media screen and (max-height: 750px) {
+
+    .container {
+        max-width: 400px;
+        top: 0;
+        padding: 0rem;
+        margin: 0px;
+        display: grid;
+        color: var(--text-dark);
+        background-color: #04aa6d;
+        border: 10px #00885b;
+        border-style: solid;
+        border-radius: 30px;
+    }
+
+    .button a{
+        padding: 1rem;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        color: #00776d;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: .3s;
+        text-decoration: none;
+        background: #333;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+
+}
