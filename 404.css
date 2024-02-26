@@ -126,7 +126,7 @@ nav .nav_logo a {
 }
 
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 750px) and (max-width: 768px) {
 
     .container {
         max-width: 400px;
@@ -139,7 +139,6 @@ nav .nav_logo a {
         border: 10px #00885b;
         border-style: solid;
         border-radius: 30px;
-        height: auto;
     }
 
     .button a{
