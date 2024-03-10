@@ -1,13 +1,8 @@
 body {
     font-family: "Lato", sans-serif;
-    background-image: url('southwest1.png');
+    background-color: #494949;
   }
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
- .logopng {
+.logopng {
   position: left;
   height: auto;
   top: 10px;
@@ -56,15 +51,9 @@ body {
     color: #f1f1f1;
   }
   
-  .sidenav a.southwest {
-    background-color: #333;
+  .sidenav a.items {
     color: #04aa6d;
   }
-
-  .sidenav a.southwest:hover {
-    color: #f1f1f1;
-  }
-
 
   .sidenav .closebtn {
     position: absolute;
@@ -77,25 +66,25 @@ body {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-
 }
 
-.swlogo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 80px;
-}
 
-@media screen and (max-width: 750px) {
-  .swlogo {
+.delogo{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 50px;
+    height: auto;
+    width: 350px;
   }
-}
-
+  
+@media screen and (max-width: 750px) {
+    .delogo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50px;
+    }
+  }
 
 
 
@@ -105,17 +94,23 @@ dl {
   margin: 0 0 1rem;
 }
 
-h2{
-  text-align: left;
-  margin-left: 30px;
+p{
+  color: #c5c5c5;
   margin-right: 30px;
-  color: #2c2c2c;
+}
+
+h2{
+  color: #f1f1f1;
+  margin-right: 30px;
 }
 
 h1 {
 text-align: center;
-color: #0052af;
+color: white;
+margin-right: 30px;
+margin-left: 30px;
 }
+
 ::marker {
   color: red;
   font-size: 23px;
@@ -130,9 +125,8 @@ overflow: hidden;
 .text {
   overflow: hidden;
    
-}
+  }
   
-
 
 
 
@@ -166,6 +160,7 @@ body {
   font-weight: bold;
   color: #04AA6D;
   background-color: #333;
+  float: center;
 }
 
 .header a.logo:hover {
@@ -190,6 +185,10 @@ body {
     color: #333;
 }
 
+.header a.items {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 .header-right {
   float: right;
@@ -216,48 +215,6 @@ body {
 }
 
 
-
-
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 40px;
-}
-
-.button1 {
-  background-color: white;
-  color: #333;
-  border: 2px solid #333;
-  float: center;
-}
-
-.button1:hover {
-  background-color: #04AA6D;
-  color: #333;
-}
-
-.button2 {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
-
-.button2:hover {
-  background-color: #008CBA;
-  color: white;
-}
-
-
-
-
 body{
   margin:0;
   overflow-x:hidden;
@@ -270,37 +227,37 @@ body{
   text-align:center;
   }
   
-  .footer .row{
-    width:100%;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:#04AA6D;
-    font-size:0.8em;
-    }
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:#04AA6D;
+font-size:0.8em;
+}
     
-    .footer .row a{
-    text-decoration:none;
-    color:white;
-    transition:0.5s;
-    }
+.footer .row a{
+text-decoration:none;
+color:white;
+transition:0.5s;
+}
     
-    .footer .row a:hover{
-    color:#04aa6d;
-    }
+.footer .row a:hover{
+color:#04aa6d;
+}
     
-    .footer .row ul{
-    width:97%;
-    }
+.footer .row ul{
+width:97%;
+}
     
-    .footer .row ul li{
-    display:inline-block;
-    margin:0px 10px;
-    }
+.footer .row ul li{
+display:inline-block;
+margin:0px 10px;
+}
     
-    .footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
   
   @media (max-width:720px){
   .footer{
@@ -315,26 +272,4 @@ body{
   .footer .row a i{
   margin:0% 3%;
   }
-  }
-
-
-  .container a{
-    text-decoration: none;
-    background: #333;
-    color: #04aa6d;
-    padding: 12px 24px;
-    display: inline-block;
-    border-radius: 25px;
-    font-size: 17px;
-    text-transform: uppercase;
-    transition: 0.4s;
-    padding: 12px;
-    line-height: 25px;
-    margin: 10px;
-  }
-   
-    
-  .container a:hover{
-        background: #04aa6d;
-        color: #333;
   }
