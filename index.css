@@ -342,6 +342,19 @@ body {
     width: 20%;
   }
   
+  @media (max-width:720px){
+
+  .lektuvas1{
+  width: 35%;
+  transform: scale(-1, 1);
+  float: right;
+      
+  }
+  .lektuvas{
+  width: 35%;
+  }
+  
+  }
   
   
   
